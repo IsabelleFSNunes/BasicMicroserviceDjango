@@ -9,5 +9,5 @@ def index(request):
     return render(request, 'index.html')
 
 
-def receita(request):
-    return render(request, 'receita.html')
+def news(request):
+    return render(request, 'news.html')
